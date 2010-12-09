@@ -145,7 +145,7 @@ void pwm_init(void)
 	tim_bdtr.TIM_OSSRState = TIM_OSSRState_Enable;
 	tim_bdtr.TIM_OSSIState = TIM_OSSIState_Enable;
 	tim_bdtr.TIM_LOCKLevel = TIM_LOCKLevel_OFF;
-	tim_bdtr.TIM_DeadTime = 10;
+	tim_bdtr.TIM_DeadTime = 50;
 	tim_bdtr.TIM_Break = TIM_Break_Disable;
 	tim_bdtr.TIM_BreakPolarity = TIM_BreakPolarity_High;
 	tim_bdtr.TIM_AutomaticOutput = TIM_AutomaticOutput_Disable;
